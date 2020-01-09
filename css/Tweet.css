@@ -1,0 +1,115 @@
+/*
+*****************************
+
+author：hexi
+time: 2018/05
+function:推文页面的CSS
+
+*****************************
+*/
+body
+{
+	/*控制页面内容水平和垂直居中*/
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	/*字体设置*/
+	font-family:宋体;
+	/*设置em基准字号*/
+    font-size:14px;
+	/*背景图设置*/
+    background-image: url(../image/TweetBI.jpeg);
+
+}
+footer{
+    clear: both;
+}
+
+/*主要内容*/
+	.left-part{
+		margin-top:30px;
+	    margin-bottom:30px;
+	}
+   .right-part{
+	margin:30px;
+	background-color:rgba(255,255,255,0.8); 
+    }
+    .tweet-Content{
+    	height:300px;
+    }
+    .tweet-Like{
+    	float:right;
+    	margin-right:30px;
+    }
+    
+    .left-part h2{
+      	display:flex;
+      	justify-content:center;
+        /*阴影颜色*/
+        text-shadow:  1px 1px 1px white;
+     }
+
+     .left-part ul{
+	 display:flex;
+     justify-content:center;
+     align-items:center;
+     flex-direction: column;
+     padding-left:10px;
+   }
+
+.left-part li:hover, .left-part li:active{
+    background-color: black;
+    color: white;
+}
+.left-part li{
+    border-radius: 1em;
+    background-color:rgba(255,255,255,0.5);
+    padding-left: 1em;
+    width: 70%;
+
+}
+
+/*小屏幕*/
+@media screen and (max-width: 768px) {
+    .left-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .left-part li{
+        display:inline-block;
+    }
+}
+/*大屏幕*/
+@media all and (min-width:768px) {
+    .left-part{
+        display: flex;
+        flex-direction: column;
+    }
+
+.left-part ul li a{
+	display: flex;
+	justify-content: flex-start;
+	/*border: 1px solid #000;*/
+   }
+
+	.left-part{
+	width:20%;
+	float:left;
+  /*  border: 1px solid #000;*/
+   }
+     
+   .right-part{
+	width:70%;
+	float:left;
+    /* border: 1px solid red;*/
+    }
+
+    .right-part h2{
+    	margin-left: 25px;
+    }
+    #mainbar{
+        margin-top: 4em;
+    }
+    
+}
+

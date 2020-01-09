@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	 <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+	<title>暑期社会实践</title>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/A_socialpractice.css">
+</head>
+<body>  
+
+     <?php
+		include("header.php");
+	?>
+
+<div id="container">
+
+		<div class="HeadSign">
+			<dl class="sign">
+			<img src="../image/114标志.png" alt="114标志">
+			<span style="color:#000;">
+				暑期社会实践报名表
+			</span>
+			
+			</dl>
+		</div>
+
+<!-- 中间主要内容 -->
+<main>
+<form action="../php/reg-S.php", method="post">
+		<!-- 学号 -->
+		<div class="ApplicantsSno">
+			<dl class="ApplicantsSno-item">
+				<dt class="ApplicantsSno-item-txt" id="prompt">
+					学号：
+				</dt>
+				<dd class="ApplicantsSno-item-cs">
+					<input type="text" name="AppSno" style="color: black">	
+				</dd>
+			</dl>
+		</div>
+		
+		<!-- 兴趣爱好 -->
+		<div class="Hobbies">
+			<dl class="Hobbies-item">
+				<dt class="Hobbies-item-txt" id="prompt">
+					兴趣爱好：
+				</dt>
+				<dd class="Hobbies-item-cs">
+					<input type="text" name="AppHoppy" style="color: black">
+				</dd>
+			</dl>
+		</div>
+
+		<!-- 特长 -->
+		<div class="strength">
+			<dl class="strength-item">
+				<dt class="strength-item-txt" id="prompt">
+					特长：
+				</dt>
+				<dd>
+					<input type="text" name="AppStrength" style="color: black">
+				</dd>
+			</dl>
+		</div>
+		<!-- 感兴趣的支教科目 -->
+			<div class="subject">
+			<dl class="subject-item">
+				<dt class="subject-item-txt" id="prompt">
+					感兴趣的支教科目：
+				</dt>
+				<dd>
+					<!-- <input type="text" name="AppSubject" style="color: black"> -->
+					<select name="AppSubject" class="AppSubject-item">
+						<option value="语文">语文</option>
+					<option selected="selected" value="数学">数学</option>
+					<option value="英语">英语</option>
+					<option value="计算机">计算机</option>
+					<option value="体育">体育</option>
+					<option value="科学">科学</option>
+					<option value="音乐">音乐</option>
+					<option value="美术">美术</option>
+					</select>
+
+				</dd>
+			</dl>
+		</div>
+		
+	<div id="register">
+	
+				<input type="submit" name="submit" value="立即注册" >
+		
+	</div>
+	
+	<?php
+		include("footer.html");
+	?>
+
+</form>
+	
+</main>
+
+</div> 
+</body>
+</html>

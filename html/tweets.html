@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	 <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>推文</title>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/tweets.css">
+</head>
+<body>
+<div id="container">
+		
+		<div id="main">
+			<!-- <div class="picture4"> -->
+				<img src="../image/picture4.png" >
+
+			<!-- </div> -->
+		<form  action="../php/reg-T.php" method="post" ><hr>
+			<div id ="essay_name">
+				<dl class="name-item">
+					<dt class="name-item-txt" id="prompt" >
+						推文标题
+					</dt>
+					<dd class="name-item-cs" >
+						<input type="text" name="essay_name" id="essayNameIpt" >
+					</dd>
+				</dl>
+			</div>
+
+		    <div id ="essay_author">
+				<dl class="author-item">
+					<dt class="name-item-txt" id="prompt" >
+						推文作者
+					</dt>
+					<dd class="author-item-cs" >
+						<input type="text" name="essay_author" id="essayAuthorIpt" >
+					</dd>
+				</dl>
+			</div>
+			<div id ="essay_time">
+				<dl class="time-item">
+					<dt class="time-item-txt" id="prompt" >
+						推文时间
+					</dt>
+					<dd class="time-item-cs" >
+						<input type="text" name="essay_time" id="essayTimeIpt" >
+					</dd>
+				</dl>
+			</div>
+           <hr>
+			<div id ="essay_content">
+				<dl class="content-item">
+					<dt class="content-item-txt" id="prompt" >
+						推文内容
+					</dt>
+					<dd class="content-item-cs" >
+						<textarea class="form-control" rows="20" name="essay_content" id="essayContenteIpt" style="border-color:grey;"></textarea>
+						<!-- <input type="text" name="essay_content" id="essaycontentIpt" > -->
+					</dd>
+				</dl>
+			</div>
+
+			<div id="register">
+					  <input type="submit" name="submit" id="essaySubmit" value="发布" >
+			</div>
+		</form>
+
+		</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户分类</title>
+    
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/a.css">
+</head>
+<body>
+
+
+
+</div>
+<div id="top-nav">
+  <ul class="nav nav-tabs nav-justified" >
+  <li role="presentation" ><a href="computer.html">计算机</a></li>
+  <li role="presentation"><a href="software-engineering.html">软工</a></li>
+  <li role="presentation"><a href="physical-network.html">物联网</a></li>
+  <li role="presentation"><a href="information-technology.html">信息</a></li>
+</ul>
+</div>
+<div id ="container" style="width:100%;height:90%;">
+</body>
+<script src="../lib/jQuery/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="../js/echarts.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.js"></script>
+  <!-- <script src="js/index.js"></script> -->
+    <script type="text/javascript">
+        //发送AJAX请求
+
+        var dom=document.getElementById("container");
+        var myChart=echarts.init(dom);
+$.post("../php/get_domaininfo_db.php",function(data)
+{ 
+  var dataAxis = ['计算机','软工','物联网','信息','非本学院'];
+var dataShadow = [];
+var seriesLabel = {
+              normal: {
+                  show: true,
+                  textBorderColor: '#333',
+                  textBorderWidth: 2
+              }
+          }    
+// for (var i = 0; i < data.length; i++) {
+//     dataShadow.push(yMax);
+// }   
+
+option = {
+    title: {
+        text: '按专业分类用户统计表',
+        subtext: '按用户所在专业进行分类统计',
+        textStyle: {
+                color: '#000' ,
+                "fontSize": 22
+
+            },
+             x: "center" ,//标题居中
+            y:2,
+            
+    },
+     tooltip: {
+        trigger: 'axis',//触发时显示阴影
+        axisPointer: {
+            type: 'shadow'
+        }
+    },
+    xAxis: {//横坐标
+        data: dataAxis,
+        axisLabel: {
+            inside: true,
+            textStyle: {
+                color: '#fff' ,
+                "fontSize": 19
+            }
+        },
+        axisTick: {
+            show: false
+        },
+        axisLine: {
+            show: false
+        },
+        z: 10
+    },
+    yAxis: {//纵坐标
+        axisLine: {
+            show: false
+        },
+        axisTick: {
+            show: false
+        },
+        axisLabel: {
+            textStyle: {
+            color: '#000',
+            fontSize: 18
+
+            }
+        },
+        
+    },
+    dataZoom: [
+        {
+            type: 'inside'
+        }
+    ],
+    series: [
+        { // For shadow
+            type: 'bar', 
+            label: seriesLabel, 
+            itemStyle: {
+                normal: {color: 'rgba(0,0,0,0.05)'}
+            },
+
+            barGap:'-100%',
+            barCategoryGap:'50%',
+            data: dataShadow,
+            animation: false
+        },
+        {
+            type: 'bar',
+            itemStyle: {
+                normal: {
+                    color: new echarts.graphic.LinearGradient(
+                        0, 0, 0, 1,
+                        [
+                            {offset: 0, color: '#83bff6'},
+                            {offset: 0.5, color: '#188df0'},
+                            {offset: 1, color: '#188df0'}
+                        ]
+                    )
+                },
+                emphasis: {
+                    color: new echarts.graphic.LinearGradient(
+                        0, 0, 0, 1,
+                        [
+                            {offset: 0, color: '#2378f7'},
+                            {offset: 0.7, color: '#2378f7'},
+                            {offset: 1, color: '#83bff6'}
+                        ]
+                    )
+                }
+            },
+            data: data
+        }
+    ]
+};
+
+// Enable data zoom when user click bar.
+var zoomSize = 6;
+myChart.on('click', function (params) {
+    console.log(dataAxis[Math.max(params.dataIndex - zoomSize / 2, 0)]);
+    myChart.dispatchAction({
+        type: 'dataZoom',
+        startValue: dataAxis[Math.max(params.dataIndex - zoomSize / 2, 0)],
+        endValue: dataAxis[Math.min(params.dataIndex + zoomSize / 2, data.length - 1)]
+    });
+});
+if(option &&typeof option ==="object"){
+            myChart.setOption(option,true);
+           }
+          },"json");
+
+    </script>
+
+</html>

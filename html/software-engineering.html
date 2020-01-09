@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>计算机专业人数统计</title>
+    
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap-theme.css">
+  <link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../css/a.css">
+</head>
+<body>
+
+
+
+</div>
+<div id="top-nav">
+  <ul class="nav nav-tabs nav-justified" >
+  <li role="presentation" ><a href="computer.html">计算机</a></li>
+  <li role="presentation"><a href="software-engineering.html">软工</a></li>
+  <li role="presentation"><a href="physical-network.html">物联网</a></li>
+  <li role="presentation"><a href="information-technology.html">信息</a></li>
+</ul>
+</div>
+<div id ="container" style="width:100%;height:90%;">
+</body>
+<script src="../lib/jQuery/jquery-3.3.1.js"></script>
+  <script type="text/javascript" src="../js/echarts.js"></script>
+  <script type="text/javascript" src="../js/bootstrap.js"></script>
+  <!-- <script src="js/index.js"></script> -->
+    <script type="text/javascript">
+        // var dom=document.getElementById("container");
+        // var myChart=echarts.init(dom);
+        //myChart.showLoading();
+        //发送AJAX请求
+
+        var dom=document.getElementById("container");
+        var myChart=echarts.init(dom);
+$.post("../php/software-engineering_db.php",function(data)
+{ 
+  option = {
+    title : {
+        text: '软工专业用户人数统计',
+        subtext: '按软工各班进行分类',
+        textStyle: {
+
+                color: '#000' ,
+                "fontSize": 22
+            },
+        top:50,
+        x:'center'
+    },
+    tooltip : {
+        trigger: 'item',
+        formatter: "{a} <br/>{b} : {c} ({d}%)"
+    },
+    legend: {
+        orient: 'vertical',
+        left: 'left',
+        data: ['软工161','软工162'],
+         left:100,
+         top:100
+    },
+    series : [
+        {
+            name: '用户数',
+            type: 'pie',
+            radius : '55%',
+            center: ['50%', '60%'],
+            // data:[
+            //     {value:data, name:'计算机161'},
+            //     {value:data, name:'计算机162'},
+            //     {value:data, name:'计算机163'},
+            //     {value:data, name:'计算机164'},
+            // ],
+            data:data,//返回的统计结果，
+            itemStyle: {
+                emphasis: {
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            }
+        }
+    ]
+};
+
+
+if(option &&typeof option ==="object"){
+            myChart.setOption(option,true);
+           }
+          },"json");
+
+    </script>
+
+</html>

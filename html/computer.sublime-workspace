@@ -1,0 +1,845 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"ma",
+				"margin-right"
+			],
+			[
+				"text",
+				"text-transform"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"com",
+				"comment_db"
+			],
+			[
+				"pa",
+				"pageButton"
+			],
+			[
+				"ob",
+				"objPage"
+			],
+			[
+				"p",
+				"pno"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"c",
+				"currentPage"
+			],
+			[
+				"cn",
+				"count"
+			],
+			[
+				"获取",
+				"获取评论的总条数"
+			],
+			[
+				"ne",
+				"newsId"
+			],
+			[
+				"sc",
+				"script\tTag"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"bac",
+				"background-repeat"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"margin",
+				"margin"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"Teach",
+				"TeacherName"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"mair",
+				"margin-top"
+			],
+			[
+				"h",
+				"html\thtml"
+			],
+			[
+				"tp",
+				"top"
+			],
+			[
+				"fle",
+				"flex-direction"
+			],
+			[
+				"news",
+				"news_id"
+			],
+			[
+				"s",
+				"stmt"
+			],
+			[
+				"int",
+				"intval"
+			],
+			[
+				"t",
+				"time"
+			],
+			[
+				"fo",
+				"float"
+			],
+			[
+				"ti",
+				"title"
+			],
+			[
+				"if",
+				"iframe\tTag"
+			],
+			[
+				"border-ra",
+				"border-radius"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"MARGIN",
+				"margin-left"
+			],
+			[
+				"margin-",
+				"margin-right"
+			],
+			[
+				"sno",
+				"Sno"
+			],
+			[
+				"paddin",
+				"padding-left"
+			],
+			[
+				"op",
+				"option\tTag"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"border-i",
+				"border-image"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"u",
+				"url()"
+			],
+			[
+				"b",
+				"bolder"
+			],
+			[
+				"count",
+				"countNo"
+			],
+			[
+				"coun",
+				"countNo"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"l",
+				"log"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"i",
+				"iframe\tTag"
+			],
+			[
+				"o",
+				"objiFrame"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"le",
+				"level"
+			],
+			[
+				"a",
+				"arr"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"us",
+				"User_Sno-item"
+			],
+			[
+				"U",
+				"User_Name-item"
+			],
+			[
+				"mo",
+				"MobilePhone-item"
+			],
+			[
+				"M",
+				"MobilePhone-item"
+			],
+			[
+				"n",
+				"NewPassWord-item"
+			],
+			[
+				"N",
+				"NewPassWord-item"
+			],
+			[
+				"mysqli_st",
+				"mysqli_stmt_bind_param"
+			],
+			[
+				"S",
+				"Sno"
+			],
+			[
+				"objs",
+				"objSubmit"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"ht",
+				"html"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"ec",
+				"echo"
+			],
+			[
+				"re",
+				"result"
+			],
+			[
+				"page",
+				"page_count"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"marker",
+				"markersize"
+			],
+			[
+				"class",
+				"class_member_mask"
+			],
+			[
+				"lab",
+				"labels"
+			],
+			[
+				"la",
+				"labels"
+			],
+			[
+				"lables",
+				"labels_true"
+			],
+			[
+				"cl",
+				"cluster"
+			],
+			[
+				"con",
+				"conn"
+			],
+			[
+				"do",
+				"domain"
+			],
+			[
+				"m",
+				"margin-top"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"ho",
+				"Hobbies-item"
+			],
+			[
+				"R",
+				"Reason-item"
+			],
+			[
+				"r",
+				"Reason"
+			],
+			[
+				"A",
+				"ApplicantsSno-item"
+			],
+			[
+				"se",
+				"Sex-item"
+			],
+			[
+				"dt",
+				"dt\tTag"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"session_de",
+				"session_destroy"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"objm",
+				"objMainCfmPwdTips"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"pro",
+				"proof"
+			],
+			[
+				"str",
+				"strInput"
+			],
+			[
+				"ca",
+				"category"
+			],
+			[
+				"error",
+				"error_reporting"
+			],
+			[
+				"loc",
+				"location"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"border-bo",
+				"border-bottom-right-radius"
+			],
+			[
+				"fno",
+				"font-size"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"im",
+				"image"
+			],
+			[
+				"background-c",
+				"background-color"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"hea",
+				"header\tTag"
+			],
+			[
+				"background-ma",
+				"background-image"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"bl",
+				"inline-block"
+			],
+			[
+				"align",
+				"align-content"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"sp",
+				"space-around"
+			],
+			[
+				"alin-",
+				"align-content"
+			],
+			[
+				"mi",
+				"min-width"
+			],
+			[
+				"max-",
+				"max-width"
+			],
+			[
+				"hed",
+				"header\tTag"
+			],
+			[
+				"max",
+				"max-width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Sid",
+		"selected_items":
+		[
+			[
+				"Sid",
+				"View: Toggle Side Bar"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zl/Desktop/Curriculum_design/html/RegistrationForm-U.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/实验3/17-18-2_何熹_2016210402015_实验三/17-18-2_何熹_2016210402015_实验2/header.php",
+		"/Users/zl/Desktop/CNKI 中国知网 PDF 全文下载.user.js",
+		"/Users/zl/HBuilderProjects/114/lib/pagination/jquery-2.1.4.min.js",
+		"/和乐/mui.picker.all.wz.doctor.js",
+		"/Users/zl/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap",
+		"/Users/zl/Library/Application Support/Sublime Text 3/Packages/Default/Default (OSX).sublime-keymap",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/get_domaininfo.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/footer.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/file.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/information-technology.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/physical-network.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/picture.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/RegistrationForm-A.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/RegistrationForm-U.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/socialpractice.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/software-engineering.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/tips.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/17-18-2_2016210402015_何熹_课程设计/课程设计_ 114党员服务中心_何熹组/源代码/Curriculum_design/html/tweets.html",
+		"/历届课程/17-18-大二下学期课程/Web设计/PHP_exercise/function.php",
+		"/Volumes/[C] 我的 Boot Camp.hidden/Users/win10/Desktop/STM32_LCD12864_万年历4/OBJ/display.d",
+		"/Users/zl/Desktop/MirrorDisplay/page/video.html",
+		"/Users/zl/Desktop/MirrorDisplay/js/modal.js",
+		"/Users/zl/Desktop/Project-MJ/MirrorDisplay/js/main.js",
+		"/Users/zl/Desktop/lab1.java",
+		"/Users/zl/Desktop/dongy.json",
+		"/Users/zl/Desktop/mui.picker.all.wz.doctor.js",
+		"/Users/zl/Desktop/大二课程/17-18-大二下学期课程/Web设计/课程设计 114党员服务中心/课程设计/php/conn.php",
+		"/Users/zl/HBuilderProjects/mui EX/src/sweet-alert.css",
+		"/Users/zl/HBuilderProjects/mui EX/src/css/content.css",
+		"/Users/zl/HBuilderProjects/mui EX/src/css/buttons.css",
+		"/Users/zl/HBuilderProjects/mui EX/src/sweetalert.js",
+		"/Users/zl/HBuilderProjects/mui EX/src/sweetalert.min.js",
+		"/Users/zl/HBuilderProjects/mui EX/src/css/text.css",
+		"/Users/zl/HBuilderProjects/mui EX/src/css/icons.css",
+		"/Users/zl/Desktop/mz-tools/js/ChildrenHealthChecks/HealthChecks.js",
+		"/Users/zl/Desktop/大二课程/17-18-大二下学期课程/Web设计/课程设计/php/Appform.php",
+		"/Users/zl/Desktop/大二课程/17-18-大二下学期课程/Web设计/实验3/lab3.sql",
+		"/Users/zl/Desktop/34.sql",
+		"/Users/zl/Desktop/python7.8.py",
+		"/Users/zl/Desktop/课程设计 114党员服务中心/课程设计/db/114db.sql",
+		"/Users/zl/Desktop/课程设计 114党员服务中心/课程设计/db/db.sql",
+		"/Users/zl/Desktop/114db.sql",
+		"/Users/zl/Desktop/Web设计/课程设计/css/a.css",
+		"/Users/zl/Desktop/12.sql",
+		"/Users/zl/Desktop/Web设计/课程设计/a/socialpractice.html",
+		"/Users/zl/Desktop/Web设计/课程设计/a/a.css",
+		"/Users/zl/Desktop/Web设计/课程设计/administrator/a/css/a.css",
+		"/Users/zl/Desktop/Web设计/课程设计/administrator/a/php/conn.php",
+		"/Users/zl/Desktop/Web设计/课程设计/administrator/a/php/logout.php",
+		"/Users/zl/Desktop/Web设计/课程设计/administrator/a/a.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/Person_editform.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/Feedbackindex.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/Feedback.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/SocialPractice.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/data.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/login.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/Teacher_db.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/reg.php",
+		"/Users/zl/Desktop/Web设计/课程设计/js/regMain.js",
+		"/Users/zl/Desktop/Web设计/课程设计/html/picture.html",
+		"/Users/zl/Desktop/Web设计/课程设计/php/news_db.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/SocialPracticeApplicationFrom.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/Introduction.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/header.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/curriculum_design.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/Personal.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/RegistrationForm.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/Logistics.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/Monthly.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/comment_insert.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/comment_index.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/comment_db.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/logout.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/LoginForm.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/Teacher.php",
+		"/Users/zl/Desktop/Web设计/课程设计/php/Tweet.php",
+		"/Users/zl/Desktop/Web设计/课程设计/footer.html",
+		"/Users/zl/Desktop/Web设计/课程设计/Introduction.php",
+		"/Users/zl/Desktop/Web设计/课程设计/LoginForm.php",
+		"/Users/zl/Desktop/Web设计/课程设计/Logistics.php",
+		"/Users/zl/Desktop/Web设计/课程设计/html/footer.html",
+		"/Users/zl/Desktop/Web设计/课程设计/Tweet.php",
+		"/Users/zl/Desktop/Web设计/课程设计/Teacher.php",
+		"/Users/zl/Desktop/Web设计/课程设计/SocialPracticeApplicationFrom.php",
+		"/Users/zl/Desktop/Web设计/课程设计/SocialPractice.php",
+		"/Users/zl/Desktop/Web设计/课程设计/RegistrationForm.php",
+		"/Users/zl/Desktop/Web设计/课程设计/Personal.php",
+		"/Users/zl/Desktop/Web设计/课程设计/Monthly.php",
+		"/Users/zl/Desktop/Web设计/课程设计/css/Tweet.css",
+		"/Users/zl/Desktop/Web设计/课程设计/css/SocialPracticeApplicationFrom.css",
+		"/Users/zl/Desktop/Web设计/课程设计/css/ke.css",
+		"/Users/zl/Desktop/Web设计/课程设计/css/Introduction.css",
+		"/Users/zl/Desktop/Web设计/课程设计/css/Feedback.css",
+		"/Users/zl/Desktop/Web设计/课程设计/a/image/介绍.jpeg",
+		"/Users/zl/Desktop/Web设计/课程设计/css/LoginForm.css",
+		"/Users/zl/Desktop/Web设计/课程设计/css/RegistrationForm.css",
+		"/Users/zl/Desktop/Web设计/课程设计/css/SocialPractice.css",
+		"/Users/zl/Desktop/Web设计/课程设计/a/information-technology_db.php",
+		"/Users/zl/Desktop/Web设计/课程设计/a/a.php",
+		"/Users/zl/Desktop/Web设计/课程设计/a/header.php",
+		"/Users/zl/Desktop/Web设计/课程设计/a/index-U.php",
+		"/Users/zl/Desktop/Web设计/课程设计/a/get_domaininfo_db.php",
+		"/Users/zl/Desktop/Web设计/课程设计/a/physical-network_db.php",
+		"/Users/zl/Desktop/Web设计/课程设计/a/software-engineering_db.php",
+		"/Users/zl/Desktop/Web设计/课程设计/a/RegistrationForm-U.html",
+		"/Users/zl/Desktop/Web设计/课程设计/a/RegistrationForm.css",
+		"/Users/zl/Desktop/Web设计/课程设计/regMain.js",
+		"/Users/zl/Desktop/Web设计/课程设计/comment_index.php",
+		"/Users/zl/Desktop/Web设计/课程设计/comment_db.php",
+		"/Users/zl/Desktop/Web设计/课程设计/news_db.php",
+		"/Users/zl/Desktop/Web设计/课程设计/comment_insert.php",
+		"/Users/zl/Desktop/Web设计/课程设计/js/Tweet.js",
+		"/Users/zl/Desktop/Web设计/课程设计/picture/picture.js",
+		"/Users/zl/Desktop/Web设计/课程设计/picture/picture.html",
+		"/Users/zl/Desktop/Web设计/课程设计/测试.php",
+		"/Users/zl/Desktop/评论.sql",
+		"/Users/zl/Desktop/推文.sql",
+		"/Users/zl/Desktop/Web设计/课程设计/curriculum_design.php",
+		"/Users/zl/Desktop/Web设计/课程设计/Feedback.php",
+		"/Users/zl/Downloads/curriculum_design.sql",
+		"/Users/zl/Desktop/Web设计/课程设计/Teacher.js",
+		"/Users/zl/Desktop/Web设计/课程设计/Monthly.css",
+		"/Users/zl/Desktop/Web设计/课程设计/Tweet.js",
+		"/Users/zl/Desktop/Web设计/课程设计/Introduction.css",
+		"/Users/zl/Desktop/Web设计/课程设计/SocialPractice.css",
+		"/Users/zl/Desktop/-- phpMyAdmin SQL Dump.sql",
+		"/Users/zl/Desktop/Web设计/课程设计/Tweet.css"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 37.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 131.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.mdpopups":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 29.0
+	},
+	"pinned_build_system": "",
+	"project": "computer.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 250.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

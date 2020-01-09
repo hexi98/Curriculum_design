@@ -1,0 +1,6 @@
+(3)事件处理函数的工作机制中，在给某元素添加事件处理函数后，一旦事件发生，相应JavaScript代码就会执行，所调用的JavaScript代码的返回值被传递给事件处理函数。当我们给a标签添加onclick事件处理函数并点击a触发其后，
+如果相应JavaScript代码返回true，onclick事件处理函数就会认为这个链接呗点击了，同样的若返回false即会认为链接
+未被点击
+<a href="http://www.baidu.com" onclick=" myjs(); return false; ">   Click Me   </a>  
+<a href="http://www.baidu.com" onclick=" return false; ">  Click Me  </a>
+当点击a标签时，JavaScript代码返回值为false，故此链接默认行为未被触发。

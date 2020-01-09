@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>文件上传</title>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="../css/A_RegistrationForm.css">
+</head>
+<body>
+	
+<div id="container">
+
+		<div class="HeadSign">
+			<dl class="114">
+			<img src="../image/114标志.png" alt="114标志">
+			<span style="color:#000;">
+				舆情反馈
+			</span>
+			
+			</dl>
+		</div>
+
+<!-- 中间主要内容 -->
+<main class="file">
+
+   <form action="../php/file.php" method="post" enctype="multipart/form-data" >
+     <label for="file">文件名称:</label>
+     <input type="file" name="file" id="file" />  <br />
+     <input type="submit" name="submit" value="上传" />
+  </form>
+</main>
+
+</div>
+</body>
+</html>
